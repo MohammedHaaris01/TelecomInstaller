@@ -38,7 +38,7 @@ This repository provides **modular Bash scripts** to fully install and set up th
 Open your terminal and clone the installer repository:
 
 ```bash
-git clone [https://github.com/](https://github.com/)<your-username>/srsRAN-installer.git ~/srsRAN-installer
+git clone https://github.com/MohammedHaaris01/TelecomInstaller.git ~/srsRAN-installer
 cd ~/srsRAN-installer
 ```
 
@@ -47,6 +47,8 @@ Ensure all scripts have the necessary execution permissions:
 ```bash
 chmod +x *.sh
 ```
+
+### Important: The Scripts should be run striclty in the following order
 
 ### Step 3: Run the scripts
 Run each module separately in the following order:
@@ -61,7 +63,6 @@ sudo ./srsRAN_Project.sh
 Check that the binaries were installed successfully and are available in your system's path:
 ```bash
 srsenb --version
-srsGUI --version
 ```
 
 ### 💡 Notes
