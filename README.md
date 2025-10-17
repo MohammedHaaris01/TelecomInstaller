@@ -1,4 +1,4 @@
-srsRAN Full Automated Installer
+**srsRAN Full Automated Installer**
 
 A one-click modular installer for srsRAN, srsGUI, Open5GS, and all dependencies
 
