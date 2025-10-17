@@ -48,7 +48,7 @@ Ensure all scripts have the necessary execution permissions:
 chmod +x *.sh
 ```
 
-### Important: The Scripts should be run striclty in the following order
+### Important: The Scripts should be run strictly in the following order
 
 ### Step 3: Run the scripts
 Run each module separately in the following order:
