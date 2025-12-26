@@ -1,4 +1,4 @@
-# 🚀 srsRAN Full Automated Installer
+# srsRAN Full Automated Installer
 
 **A one-click modular installer for srsRAN, srsGUI, Open5GS, and all dependencies.**
 
@@ -6,7 +6,7 @@ This repository provides **modular Bash scripts** to fully install and set up th
 
 ---
 
-## ✨ Features
+## Features
 
 * **Fully automated, non-interactive installation.**
 * Modular scripts for:
@@ -21,7 +21,7 @@ This repository provides **modular Bash scripts** to fully install and set up th
 
 ---
 
-## 📋 Prerequisites
+## Prerequisites
 
 | Requirement | Details |
 | :--- | :--- |
@@ -31,7 +31,7 @@ This repository provides **modular Bash scripts** to fully install and set up th
 
 ---
 
-## 🛠️ Installation Guide
+## Installation Guide
 
 ### Step 1: Clone the repository
 
@@ -65,7 +65,7 @@ Check that the binaries were installed successfully and are available in your sy
 srsenb --version
 ```
 
-### 💡 Notes
+### Notes
 * All scripts will clone repositories into the user’s home directory (~), even when run with sudo, to prevent future permission conflicts during development.
 
 * If a repository already exists in the target location, the script will skip cloning and proceed directly to the build step.
