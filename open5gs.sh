@@ -32,5 +32,10 @@ apt install -y nodejs
 echo "[3/3] Installing Open5GS WebUI..."
 curl -fsSL https://open5gs.org/open5gs/assets/webui/install | bash -
 
+# Open5gs Install
+sudo add-apt-repository ppa:open5gs/latest
+sudo apt update
+sudo apt install open5gs
+
 echo "================== Open5GS Installation Complete =================="
 
